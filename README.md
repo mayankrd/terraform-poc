@@ -1,5 +1,5 @@
 # Terraform POC
-Terraform - Infrastructure as Code boilerplate for AWS as cloud provider. 
+Terraform - Infrastructure as Code boilerplate for AWS as cloud service provider 
 
 ## Getting Started
 This code builds an AWS infrastructure having:
