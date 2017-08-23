@@ -4,7 +4,7 @@ Terraform - Infrastructure as Code boilerplate for AWS as cloud service provider
 This code builds an AWS infrastructure having:
 
 - #### 1 IAM role for executing Lambda Functions
-- #### 2 EC2 t2.micor instances
+- #### 2 EC2 t2.micro instances
 - #### 1 AWS Dynamo DB table titled 'TerraGameScores_v1' having 3 attributes and a global secondry index
 - #### Uploads a set of Lambda Functions defined in zip file 'lambda_function_payload'
 
@@ -31,14 +31,14 @@ terraform apply // warning: this step will allocate AWS resources and may incur 
 Use following commands to better understand the state of the cloud infrastructure.
 Commands to be executed in format: ``` terraform init ```
 
-Initial planning and deployment commands:
+###### Initial planning and deployment commands:
 ```
     init               Initialize a new or existing Terraform configuration
     plan               Generate and show an execution plan
     apply              Builds or changes infrastructure
 ```
 
-Terraform state management commands:
+###### Terraform state management commands:
 ```
     destroy            Destroy Terraform-managed infrastructure
     output             Read an output from a state file
